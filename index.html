@@ -29,7 +29,7 @@
 </head>
 
 <body id="homepage" class="bg-gradient-1">
-    <nav class="navbar navbar-light navbar-expand-md fixed-top museo">
+    <nav id="navbar" class="navbar navbar-light navbar-expand-md fixed-top museo">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="./assets/img/homepage/logo-header.png" alt="logo" loading="lazy">
@@ -83,7 +83,7 @@
                 <div class="swiper-button-prev"></div>
             </div>
             <div class="d-flex justify-content-center">
-                <img src="/assets/img/homepage/tagline.png" class="lazy img-fluid tagline" alt="tagline">   
+                <img src="/assets/img/homepage/tagline.png" class="lazy img-fluid tagline" alt="tagline">
             </div>
         </div>
         <img src="assets/img/homepage/bg-back-banner.png" class="lazy img-fluid bg-back-banner" alt="bg-back">
@@ -93,18 +93,23 @@
     </section>
 
     <section class="section-one bg-transparent">
-        <img src="/assets/img/homepage/bg-home-about.png" class="lazy img-fluid bg-section-one" alt="bg-about">
+        <img src="/assets/img/homepage/bg-home-about.png" class="lazy img-fluid bg-section-one d-none d-sm-block"
+            alt="bg-about">
+        <img src="/assets/img/homepage/bg-mob-about.png" class="lazy img-fluid mob-section-one d-block d-sm-none"
+            alt="bg-about-mob">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-12">
                     <div class="box-item">
                         <p class="title">About UHA</p>
                         <p class="text-desc">
-                            Konsep dari UHA adalah penyeimbang antara pikiran, tubuh, dan hati. Semua itu tercermin dari konsep yang diusung oleh UHA.
+                            Konsep dari UHA adalah penyeimbang antara pikiran, tubuh, dan hati. Semua itu tercermin dari
+                            konsep yang diusung oleh UHA.
                         </p>
                         <a class="btn btn-wave-pink" href="#">
                             SEE MORE
-                            <img src="/assets/img/homepage/arrow-more.png" class="lazy img-fluid arrow-more" alt="arrow-more">
+                            <img src="/assets/img/homepage/arrow-more.png" class="lazy img-fluid arrow-more"
+                                alt="arrow-more">
                         </a>
                     </div>
                 </div>
@@ -115,29 +120,69 @@
     </section>
 
     <section class="section-two bg-transparent">
-        <img src="/assets/img/homepage/bg-home-product.png" class="lazy img-fluid bg-section-two" alt="bg-product">
+        <img src="/assets/img/homepage/bg-home-product.png" class="lazy img-fluid bg-section-two d-none d-sm-block"
+            alt="bg-product">
+        <img src="/assets/img/homepage/bg-mob-about.png" class="lazy img-fluid mob-section-two d-block d-sm-none"
+            alt="bg-about-mob">
+        <img src="/assets/img/homepage/mob-leaves-2.png" class="lazy img-fluid mob-leaves-2" alt="mob-leaves-2">
+        <img src="/assets/img/homepage/pd-mob-bottom.png" class="lazy img-fluid mob-bg-bottom" alt="mob-bg-bottom">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 d-flex align-items-center item-cols">
+                <div class="col-md-6 col-xs-12 d-flex align-items-center item-cols">
                     <div class="box-item">
                         <p class="title">Product</p>
                         <p class="text-desc">
-                            Kami memiliki beberapa varian rasa lezat. Mulai dari rasa susu murni sampai rasa kopi yang kuat. Rahasia dari permen UHA terletak pada rasa manis mereka
+                            Kami memiliki beberapa varian rasa lezat. Mulai dari rasa susu murni sampai rasa kopi yang
+                            kuat. Rahasia dari permen UHA terletak pada rasa manis mereka
                         </p>
-                        <a class="btn btn-wave-pink" href="#">
+                        <a class="btn btn-wave-pink d-none d-sm-block" href="#">
                             MORE PORDUCTS
-                            <img src="/assets/img/homepage/arrow-more.png" class="lazy img-fluid arrow-more" alt="arrow-more">
+                            <img src="/assets/img/homepage/arrow-more.png" class="lazy img-fluid arrow-more"
+                                alt="arrow-more">
                         </a>
                         <a href="#">
-                            <img src="/assets/img/homepage/pd-milk-candy.png" class="lazy img-fluid pd-candy" alt="thumbnail-candy">    
+                            <img src="/assets/img/homepage/pd-milk-candy.png"
+                                class="lazy img-fluid pd-candy d-none d-sm-block" alt="thumbnail-candy">
                         </a>
-                        
                     </div>
                 </div>
                 <div class="col-md-6 item-cols">
                     <div class="box-img">
+                        <div class="swiper-container d-block d-sm-none">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="/assets/img/homepage/mob-pd-candy.png" class="lazy img-fluid mob-candy"
+                                        alt="milk-candy">
+                                    <div class="desc-text">
+                                        <p class="title">MILK CANDY</p>
+                                        <p class="description">
+                                            Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan
+                                            penataan huruf atau typesetting.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="/assets/img/homepage/mob-pd-kororo.png" class="lazy img-fluid mob-kororo"
+                                        alt="kororo">
+                                    <div class="desc-text">
+                                        <p class="title">KORORO</p>
+                                        <p class="description">
+                                            Sudah merupakan fakta bahwa seorang pembaca akan terpengaruh oleh isi
+                                            tulisan dari sebuah halaman saat ia melihat tata letaknya.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <a class="btn btn-wave-pink" href="#">
+                            MORE PORDUCTS
+                            <img src="/assets/img/homepage/arrow-more.png" class="lazy img-fluid arrow-more"
+                                alt="arrow-more">
+                        </a>
                         <a href="#">
-                            <img src="/assets/img/homepage/pd-kororo.png" class="lazy img-fluid pd-kororo" alt="thumbnail-kororo">
+                            <img src="/assets/img/homepage/pd-kororo.png"
+                                class="lazy img-fluid pd-kororo d-none d-sm-block" alt="thumbnail-kororo">
                         </a>
                     </div>
                 </div>
@@ -146,7 +191,13 @@
     </section>
 
     <section class="section-three bg-transparent">
-        <img src="/assets/img/homepage/bg-footer-bottom.png" class="lazy img-fluid bg-footer-bottom" alt="bg-footer-bottom">
+        <img src="/assets/img/homepage/act-mob-bottom.png" class="lazy img-fluid bg-footer-top d-block d-sm-none"
+            alt="bg-footer-bottom">
+        <img src="/assets/img/homepage/bg-mob-acitivities.png" class="lazy img-fluid bg-activities d-block d-sm-none"
+            alt="bg-footer-bottom">
+        <img src="/assets/img/homepage/bg-footer-bottom.png" class="lazy img-fluid bg-footer-bottom d-none d-sm-block"
+            alt="bg-footer-bottom">
+        <img src="/assets/img/homepage/mob-leaves-3.png" class="lazy img-fluid mob-leaves-3" alt="mob-leaves-3">
         <img src="/assets/img/homepage/mint-leaves-2.png" class="lazy img-fluid leaves-2" alt="leaves-2">
         <img src="/assets/img/homepage/mint-leaves-3.png" class="lazy img-fluid leaves-3" alt="leaves-3">
         <img src="/assets/img/homepage/mint-leaves-4.png" class="lazy img-fluid leaves-4" alt="leaves-4">
@@ -157,32 +208,61 @@
                     <div class="box-item">
                         <p class="title">Activities</p>
                         <p class="text-desc">
-                            Sudah merupakan fakta bahwa seorang pembaca akan terpengaruh oleh isi tulisan dari sebuah halaman saat ia melihat tata letaknya.
+                            Sudah merupakan fakta bahwa seorang pembaca akan terpengaruh oleh isi tulisan dari sebuah
+                            halaman saat ia melihat tata letaknya.
                         </p>
-                        <a class="btn btn-wave-pink" href="#">
+                        <a class="btn btn-wave-pink d-none d-sm-block" href="#">
                             SEE MORE
-                            <img src="/assets/img/homepage/arrow-more.png" class="lazy img-fluid arrow-more" alt="arrow-more">
+                            <img src="/assets/img/homepage/arrow-more.png" class="lazy img-fluid arrow-more"
+                                alt="arrow-more">
                         </a>
-                        <!-- <a href="#">
-                            <img src="/assets/img/homepage/pd-milk-candy.png" class="lazy img-fluid pd-candy" alt="thumbnail-candy">    
-                        </a> -->
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="swiper-container d-block d-sm-none">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="/assets/img/homepage/activities-1.png" class="lazy img-fluid activity-mob-1"
+                                alt="activity-1">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="/assets/img/homepage/activities-2.png" class="lazy img-fluid activity-mob-2"
+                                alt="activity-2">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="/assets/img/homepage/activities-3.png" class="lazy img-fluid activity-mob-3"
+                                alt="activity-3">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <a class="btn btn-wave-pink d-flex d-sm-none" href="#">
+                SEE MORE
+                <img src="/assets/img/homepage/arrow-more.png" class="lazy img-fluid arrow-more" alt="arrow-more">
+            </a>
+            <div class="row d-none d-sm-flex">
                 <div class="col-5 cols-activity">
                     <a href="#">
-                        <img src="/assets/img/homepage/activities-1.png" class="lazy img-fluid activity-1" alt="activity-1">    
+                        <img src="/assets/img/homepage/activities-1.png" class="lazy img-fluid activity-1"
+                            alt="activity-1">
                     </a>
                 </div>
                 <div class="col-4 cols-activity">
                     <a href="#">
-                        <img src="/assets/img/homepage/activities-2.png" class="lazy img-fluid activity-2" alt="activity-2">    
+                        <img src="/assets/img/homepage/activities-2.png" class="lazy img-fluid activity-2"
+                            alt="activity-2">
                     </a>
                 </div>
                 <div class="col-3 cols-activity">
                     <a href="#">
-                        <img src="/assets/img/homepage/activities-3.png" class="lazy img-fluid activity-3" alt="activity-3">    
+                        <img src="/assets/img/homepage/activities-3.png" class="lazy img-fluid activity-3"
+                            alt="activity-3">
                     </a>
                 </div>
             </div>
@@ -190,12 +270,9 @@
     </section>
 
     <footer class="bg-footer">
-        <div class="container">
-            <!-- <p class="float-right">
-                <a href="#">Back to top</a>
-            </p> -->
-            <div class="row">
-                <div class="col ml-auto">
+        <div class="row m-0">
+            <div class="container">
+                <div class="col-12 col-md-6 block-right">
                     <div class="footer-left">
                         <div class="link-page">
                             <a href="#">Privacy Policy</a>
@@ -205,29 +282,38 @@
                         <p class="text-footer">
                             PT.UHA MIKAKUTO INDONESIA<br>
                             All Rights Reserved
-                        </p>                     
+                        </p>
                     </div>
                 </div>
-                <div class="col mr-auto">
+                <div class="col-12 col-md-6 block-left">
                     <div class="row text-right">
                         <div class="col icon-socmed">
-                            <a href="#">
-                                <img src="/assets/img/homepage/ic-facebook.png" class="lazy img-fluid icon-fb" alt="icon facebook">    
+                            <a href="https://web.facebook.com/UHA.Mikakuto.Indonesia/" target="_blank">
+                                <img src="/assets/img/homepage/ic-facebook.png" class="lazy img-fluid icon-fb"
+                                    alt="icon facebook">
                             </a>
-                            <a href="#">
-                                <img src="/assets/img/homepage/ic-instagram.png" class="lazy img-fluid icon-fb" alt="icon facebook">    
+                            <a href="https://www.instagram.com/uhappycandy/" target="_blank">
+                                <img src="/assets/img/homepage/ic-instagram.png" class="lazy img-fluid icon-insta"
+                                    alt="icon instagram">
                             </a>
-                            <a href="#">
-                                <img src="/assets/img/homepage/ic-twitter.png" class="lazy img-fluid icon-fb" alt="icon facebook">    
+                            <a href="https://twitter.com/uha_id" target="_blank">
+                                <img src="/assets/img/homepage/ic-twitter.png" class="lazy img-fluid icon-twitter"
+                                    alt="icon twitter">
                             </a>
-                            <a href="#">
-                                <img src="/assets/img/homepage/ic-youtube.png" class="lazy img-fluid icon-fb" alt="icon facebook">    
+                            <a href="https://www.youtube.com/channel/UC8cMqWvh1_LqolDgE-WJQsQ" target="_blank">
+                                <img src="/assets/img/homepage/ic-youtube.png" class="lazy img-fluid icon-youtube"
+                                    alt="icon youtube">
                             </a>
                         </div>
                     </div>
                 </div>
+                <div class="row">
+
+                </div>
+
             </div>
         </div>
+
     </footer>
 
 
@@ -245,20 +331,40 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
-        var swiper = new Swiper('.swiper-container', {
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-100px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
+    <script>
+        var swiper = new Swiper('.banner-jumbo .swiper-container', {
             slidesPerView: 1,
             spaceBetween: 30,
             loop: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
             breakpoints: {
                 576: {
-                    pagination: {
-                        el: '.swiper-pagination',
-                        clickable: true,
-                    },
+                    // pagination: {
+                    //     el: '.swiper-pagination',
+                    //     clickable: true,
+                    // },
                 },
                 // 768: {
                 //     slidesPerView: 4,
@@ -269,6 +375,26 @@
                 //     spaceBetween: 50,
                 // },
             }
+        });
+
+        var swiper = new Swiper('.section-two .swiper-container', {
+            slidesPerView: 'auto',
+            centeredSlides: true,
+            spaceBetween: 20,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+
+        var swiper = new Swiper('.section-three .swiper-container', {
+            slidesPerView: 'auto',
+            centeredSlides: true,
+            spaceBetween: 20,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
         });
     </script>
 
