@@ -128,8 +128,7 @@
                     <div class="box-item">
                         <p class="title">Product</p>
                         <p class="text-desc">
-                            Kami memiliki beberapa varian rasa lezat. Mulai dari rasa susu murni sampai rasa kopi yang
-                            kuat. Rahasia dari permen UHA terletak pada rasa manis mereka
+                            Produk yang terlalu mahal tidak dapat menyenangkan semuaorang, tidak peduli seberapa enak atau sehatnya mereka. Struktur organisasi kami diarahkan untuk menyediakan produk yang lebih baik kepada masyarakat dengan harga yang lebih baik.
                         </p>
                         <a class="btn btn-wave-pink d-none d-sm-flex" href="products.html">
                             MORE PORDUCTS
@@ -137,7 +136,7 @@
                                 alt="arrow-more">
                         </a>
                         <a href="#">
-                            <img src="./assets/img/homepage/pd-milk-candy.png"
+                            <img src="./assets/img/homepage/pd-kororo.png"
                                 class="lazy img-fluid pd-candy d-none d-sm-block" alt="thumbnail-candy">
                         </a>
                     </div>
@@ -147,24 +146,22 @@
                         <div class="swiper-container d-block d-sm-none">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="./assets/img/homepage/mob-pd-candy.png" class="lazy img-fluid"
+                                    <img src="./assets/img/homepage/mob-pd-kororo.png" class="lazy img-fluid"
                                         alt="milk-candy">
                                     <div class="desc-text">
-                                        <p class="title">MILK CANDY</p>
+                                        <p class="title">KORORO</p>
                                         <p class="description">
-                                            Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan
-                                            penataan huruf atau typesetting.
+                                            Lezat untuk digigit, hampir seperti buah asli. KORORO merupakan tahap baru dalam evolusi gummy. KORORO dengan Sensasi Kaya Buah
                                         </p>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="./assets/img/homepage/mob-pd-kororo.png" class="lazy img-fluid"
+                                    <img src="./assets/img/homepage/mob-pd-candy.png" class="lazy img-fluid"
                                         alt="kororo">
                                     <div class="desc-text">
-                                        <p class="title">KORORO</p>
+                                        <p class="title">MILK CANDY</p>
                                         <p class="description">
-                                            Sudah merupakan fakta bahwa seorang pembaca akan terpengaruh oleh isi
-                                            tulisan dari sebuah halaman saat ia melihat tata letaknya.
+                                            Dibuat dengan bahan susu berkualitas tinggi, ini adalah permen susu asli dan permen susu yang bikin nagih dan juga halal
                                         </p>
                                     </div>
                                 </div>
@@ -177,7 +174,7 @@
                                 alt="arrow-more">
                         </a>
                         <a href="#">
-                            <img src="./assets/img/homepage/pd-kororo.png"
+                            <img src="./assets/img/homepage/pd-milk-candy.png"
                                 class="lazy img-fluid pd-kororo d-none d-sm-block" alt="thumbnail-kororo">
                         </a>
                     </div>
@@ -204,8 +201,7 @@
                     <div class="box-item">
                         <p class="title">Activities</p>
                         <p class="text-desc">
-                            Sudah merupakan fakta bahwa seorang pembaca akan terpengaruh oleh isi tulisan dari sebuah
-                            halaman saat ia melihat tata letaknya.
+                            Keseruan Aktifitas KORORO akan selalu tersajikan untuk semua. Dengan mengabadikan moment indah KORORO Sensasi Kaya Buah,  jadilah moment berkesan lainnya KORORO bersama kamu
                         </p>
                         <a class="btn btn-wave-pink d-none d-sm-flex" href="#">
                             SEE MORE
@@ -318,56 +314,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function () {
-            var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos) {
-                document.getElementById("navbar").style.top = "0";
-            } else {
-                document.getElementById("navbar").style.top = "-100px";
-            }
-            prevScrollpos = currentScrollPos;
-        }
-    </script>
-    <script>
-        var swiper = new Swiper('.banner-jumbo .swiper-container', {
-            slidesPerView: 1,
-            spaceBetween: 30,
-            loop: true,
-            autoplay: {
-                delay: 5000,
-                disableOnInteraction: false,
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-        });
-
-        var swiper = new Swiper('.section-two .swiper-container', {
-            slidesPerView: 'auto',
-            centeredSlides: true,
-            spaceBetween: 20,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-        });
-
-        var swiper = new Swiper('.section-three .swiper-container', {
-            slidesPerView: 'auto',
-            centeredSlides: true,
-            spaceBetween: 20,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-        });
-    </script>
+    <script src="js/script.js"></script>
 </body>
 </html>
