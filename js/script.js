@@ -131,6 +131,21 @@ var swiper = new Swiper('.section-candy .box-list-candy .swiper-container', {
     },
 });
 
+var swiper = new Swiper('.section-store .store-list .swiper-container', {
+    slidesPerView: 1,
+    centeredSlides: true,
+    spaceBetween: 0,
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
+});
+
 var galleryTop = new Swiper('#pills-online .gallery-top', {
     spaceBetween: 0,
     centeredSlides: true,
