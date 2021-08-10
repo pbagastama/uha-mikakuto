@@ -423,26 +423,26 @@ body#homepage {
                     align-items: center;
 
                     img.pd-kororo {
-                        width: 55%;
+                        width: 75%;
 
                         @media(max-width: 1366px) {
-                            width: 50%;
+                            width: 70%;
                         }
 
                         @media only screen and (device-width : 1024px) and (device-height : 600px) {
-                            width: 50% !important;
+                            width: 70% !important;
                         }
 
                         @media(max-width: 1024px) {
-                            width: 65%;
+                            width: 85%;
                         }
 
                         @media(max-width: 768px) {
-                            width: 55%;
+                            width: 75%;
                         }
 
                         @media(max-width: 576px) {
-                            width: 85%;
+                            width: 100%;
                         }
                     }
 
@@ -3083,7 +3083,7 @@ body#product {
                     }
 
                     @media(max-width: 576px) {
-                        width: 85%;
+                        width: 100%;
                         font-size: 14px;
                     }
 
@@ -3135,9 +3135,9 @@ body#product {
                 @media(max-width: 576px) {
                     display: block;
                     position: absolute;
-                    top: 35%;
+                    bottom: 8%;
                     right: 0%;
-                    width: 65%;
+                    width: 70%;
                 }
 
                 // @media(max-width: 320px) {
@@ -3155,7 +3155,7 @@ body#product {
         // z-index: 2;
 
         @media(max-width: 1366px) {
-            padding: 14rem 0 2rem;
+            padding: 14rem 0 0;
             height: auto;
         }
 
@@ -3207,16 +3207,16 @@ body#product {
             }
 
             @media(max-width: 1366px) {
-                height: 215vh;
+                height: 300vh;
             }
 
             @media(max-width: 1024px) {
-                height: 90vh;
+                height: 120vh;
                 top: -20%;
             }
 
             @media(max-width: 768px) {
-                height: 140vh;
+                height: 170vh;
                 top: -10%;
             }
 
